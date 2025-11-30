@@ -15,7 +15,9 @@ import Changelog from "@theme/components/Changelog.vue";
 
 # Download
 
-The latest stable version of **MihonOCR** was released **<ReleaseDate type="stable" />**.
+The latest stable version of **MihonOCR** 
+has not yet been released.
+// was released **<ReleaseDate type="stable" />**.
 
 <DownloadButtons />
 
