@@ -10,7 +10,7 @@ MihonOCR supports importing Yomitan dictionaries for use with its text recogniti
 
 ## Prerequisites
 
-You need a Yomitan-compatible dictionary file. If you don't already have one, a good place to start is by searching for `Yomitan dictionaries`.
+You need a Yomitan-compatible dictionary file. If you don't already have one, a good place to start is by searching for `Yomitan dictionaries` or by downloading from the links below.
 
 **Recommended Dictionaries:**
 * [Jitendex \[Terms\]](https://jitendex.org/pages/downloads.html) - An improved version of JMdict with advanced formatting and polish.
