@@ -3,11 +3,11 @@ title: Home
 layout: home
 
 hero:
-  name: MihonOCR
+  name: Yomihon
   text: Full-featured reader with OCR
   tagline: Discover and read manga, webtoons, comics, and more – easier than ever on your Android device. Now with text recognition.
   #image:
-  #  alt: MihonOCR Library Tab Dark
+  #  alt: Yomihon Library Tab Dark
   #  light: /home/phone.light.webp
   #  dark: /home/phone.dark.webp
   actions:
@@ -18,7 +18,7 @@ hero:
       text: Download
       link: /download/
 
-customMetaTitle: MihonOCR
+customMetaTitle: Yomihon
 
 features:
   - title: Customization

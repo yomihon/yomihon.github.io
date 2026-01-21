@@ -15,8 +15,8 @@ The app's default behavior is to skip updates for entries that meet the followin
 1. Marked with a "**Completed**" status
 1. Isn't predicted to receive new chapters yet
 
-This strategy helps reduce unnecessary requests which may lead to sources implementing measures against **MihonOCR** or your extensions.
-* We recommend to prioritize reading your unread chapters, and letting **MihonOCR** update the library by itself to better adapt & predict chapter releases over time.
+This strategy helps reduce unnecessary requests which may lead to sources implementing measures against **Yomihon** or your extensions.
+* We recommend to prioritize reading your unread chapters, and letting **Yomihon** update the library by itself to better adapt & predict chapter releases over time.
 
 :::tip
 If an entry has infrequent updates or no updates:
@@ -27,7 +27,7 @@ If an entry has infrequent updates or no updates:
 For more information, check out the [Smart Updates](/docs/faq/updates/smart) and [Upcoming Calendar](/docs/faq/updates/upcoming) pages.
 
 ## Why am I being warned about bulk updates and downloads?
-**MihonOCR** provides a reminder when updating multiple titles or bulk downloading chapters, since excessive requests may trigger a source's anti-bot measures.
+**Yomihon** provides a reminder when updating multiple titles or bulk downloading chapters, since excessive requests may trigger a source's anti-bot measures.
 This can lead to stalled updates and downloads, extending the time needed to complete your requests, which also impacts your device's battery life.
 ### To mitigate these concerns
 * In <nav to="downloads">, enable "**Auto download while reading**" to download chapters while reading.
@@ -40,7 +40,7 @@ This can lead to stalled updates and downloads, extending the time needed to com
 
 ## Why aren't library updates working in the background?
 Some Android skins (e.g., **MIUI**) aggressively save battery & limit performance, potentially shutting down apps in the background.
-* Whitelist **MihonOCR** from your battery saver by going to <nav to="advanced"> and tapping **Disable battery optimization**.
+* Whitelist **Yomihon** from your battery saver by going to <nav to="advanced"> and tapping **Disable battery optimization**.
 * If the issue still occurs, refer to [Don't Kill My App](https://dontkillmyapp.com/) for steps on disabling specific battery-saving options for your device's brand.
 
 ## How can I see the number of downloaded chapters?
@@ -48,7 +48,7 @@ Badges can be enabled by navigating to <nav to="main_library">, then going to **
 Then, at the bottom, select **Download badges**.
 
 ## Can I sync between multiple devices?
-**MihonOCR** can't sync between devices.
+**Yomihon** can't sync between devices.
 Use its [backup and restore](/docs/guides/backups) features, including [auto backups](/docs/guides/backups#enabling-automatic-backups), for series database and content migration to another device.
 
 ## How can I ignore duplicate chapters?
@@ -69,7 +69,7 @@ Refresh your covers at <nav to="advanced"> then tap **Refresh library covers**.
 
 ## Why have some chapters been marked as unread?
 If certain series chapters are marked as unread without your interaction, it could be due to changed URLs.
-**MihonOCR** detects these changes and interprets the chapters as new.
+**Yomihon** detects these changes and interprets the chapters as new.
 
 ## How do I pause reading history?
 Disable **Incognito Mode** through <nav to="incognito-mode">.

@@ -12,7 +12,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
     id: hostname,
     link: hostname,
     language: 'en',
-    image: `${hostname}/img/logo.png`,
+    image: `${hostname}/img/mihon.png`,
     favicon: `${hostname}/favicon.ico`,
     copyright: `Copyright © ${new Date().getFullYear()} Mihon App`,
   })

@@ -1,12 +1,12 @@
 ---
 title: Text Recognition
 titleTemplate: Guides
-description: Learn how to use the text recognition feature in MihonOCR.
+description: Learn how to use the text recognition feature in Yomihon.
 ---
 
 # Text Recognition
 
-MihonOCR comes with built-in text recognition capabilities, allowing you to extract text from manga pages and look up words using integrated dictionaries.
+Yomihon comes with built-in text recognition capabilities, allowing you to extract text from manga pages and look up words using integrated dictionaries.
 
 ## How to use
 
@@ -50,7 +50,7 @@ MihonOCR comes with built-in text recognition capabilities, allowing you to extr
 
 ## Settings
 
-You can customize the text recognition model in **Settings > Reader**.
+You can customize the text recognition options in **Settings > Reader**.
 
-* If the text recognition is slow, try switching to the **"Fast"** model.
+* If the text recognition is slow, try switching to the "Fast" model **(Coming Soon)**.
 * To return to the previous long press options, disable **"Recognize Text on Long Press."**

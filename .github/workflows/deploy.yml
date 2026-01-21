@@ -14,7 +14,7 @@ concurrency:
 
 env:
     VITE_BASE: /
-    VITE_HOSTNAME: https://mihon-ocr.github.io
+    VITE_HOSTNAME: https://yomihon.github.io
 
 jobs:
     deploy:

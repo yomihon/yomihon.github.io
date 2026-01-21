@@ -1,12 +1,12 @@
 ---
 title: Smart updates
 titleTemplate: Updates - Frequently Asked Questions
-description: MihonOCR intelligently manages series updates to reduce the load on sources.
+description: Yomihon intelligently manages series updates to reduce the load on sources.
 ---
 
 # Smart updates
 
-MihonOCR intelligently works to reduce the number of series in a global update to reduce the load on sources. To be updated, a series has to meet the following conditions:
+Yomihon intelligently works to reduce the number of series in a global update to reduce the load on sources. To be updated, a series has to meet the following conditions:
 
 1. **Series Progress**: The series must have been **started**, with at least **one chapter read**.
 2. **Ongoing Status**: The series is **not marked Completed** by the source, there's an expectation of more chapters in the future.

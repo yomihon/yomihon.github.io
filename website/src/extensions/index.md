@@ -1,6 +1,6 @@
 ---
 title: Extensions
-description: Extension list for MihonOCR.
+description: Extension list for Yomihon.
 lastUpdated: false
 editLink: false
 prev: false

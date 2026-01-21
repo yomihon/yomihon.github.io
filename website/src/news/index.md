@@ -1,6 +1,6 @@
 ---
 title: News
-description: Collection of news and announcements about MihonOCR.
+description: Collection of news and announcements about Yomihon.
 lastUpdated: false
 editLink: false
 prev: false
@@ -14,7 +14,7 @@ import RssLink from "@theme/components/RssLink.vue";
 
 # News
 
-Collection of news and announcements about MihonOCR.
+Collection of news and announcements about Yomihon.
 
 Also available as <RssLink />.
 

@@ -1,12 +1,12 @@
 ---
 title: Dictionaries
 titleTemplate: Guides
-description: How to import and use Yomitan dictionaries in MihonOCR.
+description: How to import and use Yomitan dictionaries in Yomihon.
 ---
 
 # Dictionaries
 
-MihonOCR supports importing Yomitan dictionaries for use with its text recognition feature. This allows you to look up words directly from the reader.
+Yomihon supports importing Yomitan dictionaries for use with its text recognition feature. This allows you to look up words directly from the reader.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ You need a Yomitan-compatible dictionary file. If you don't already have one, a 
 
 ## Importing a Dictionary
 
-1.  Open **MihonOCR** and go to **More**.
+1.  Open **Yomihon** and go to **More**.
 2.  Navigate to **Dictionaries**.
 3.  Tap the **Import dictionary** button (the `+` icon).
 4.  Select the dictionary ZIP file from your device storage.

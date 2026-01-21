@@ -8,7 +8,7 @@ description: Frequently Asked Questions about the Reader.
 Frequently Asked Questions about the Reader.
 
 ## Why didn't the page load?
-Besides network-related problems, **MihonOCR** may occasionally fail to recognize certain images.
+Besides network-related problems, **Yomihon** may occasionally fail to recognize certain images.
 To address this, simply exit and re-enter the reader, often resolving the issue.
 
 ## Can I see two pages at once?

@@ -107,8 +107,8 @@ async function generateOgImages(config: SiteConfig) {
   // Generate OG images for dynamic changelog pages
   const octokit = new Octokit()
   const releases = await octokit.paginate(octokit.repos.listReleases, {
-    owner: 'mihon-ocr',
-    repo: 'mihon-ocr',
+    owner: 'yomihon',
+    repo: 'yomihon',
     per_page: 100,
   })
 
@@ -119,7 +119,7 @@ async function generateOgImages(config: SiteConfig) {
       url: `/changelogs/${r.tag_name}`,
       frontmatter: {
         // Prefer release name; fallback to tag
-        title: r.name || `MihonOCR ${r.tag_name.substring(1)}`,
+        title: r.name || `Yomihon ${r.tag_name.substring(1)}`,
         description: extractChangelogSnippet(r.body),
       } as any,
     }

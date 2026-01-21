@@ -33,8 +33,8 @@ export default defineLoader({
       }
     }
 
-    const stable = await getLatest('mihon-ocr', 'mihon-ocr')
-    const beta = await getLatest('mihon-ocr', 'mihon-ocr-preview')
+    const stable = await getLatest('yomihon', 'yomihon')
+    const beta = await getLatest('yomihon', 'yomihon-preview')
 
     return { stable, beta }
   },

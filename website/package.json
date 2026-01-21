@@ -1,17 +1,17 @@
 {
-  "name": "mihon-ocr-website",
+  "name": "yomihon-website",
   "type": "module",
   "version": "3.0.0",
   "private": true,
   "packageManager": "pnpm@10.20.0",
-  "description": "Official website for the MihonOCR app.",
+  "description": "Official website for the Yomihon app.",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihon-ocr/mihon-ocr.github.io.git"
+    "url": "git+https://github.com/yomihon/yomihon.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/mihon-ocr/mihon-ocr.github.io/issues"
+    "url": "https://github.com/yomihon/yomihon.github.io/issues"
   },
   "engines": {
     "node": ">=22",

@@ -7,18 +7,18 @@ description: Frequently Asked Questions about Extensions.
 # Extensions
 Frequently Asked Questions about Extensions.
 
-## Where can I find repositories/extensions for MihonOCR?
-MihonOCR does not have, associate, or provide any repositories or extensions.
+## Where can I find repositories/extensions for Yomihon?
+Yomihon does not have, associate, or provide any repositories or extensions.
 
 ::: danger Caution
 Beware that any third-party repositories or extensions will have full access to the app and may contain malware.
 :::
 
 ## What are some recommended extensions and sources?
-MihonOCR is bring-your-own-content and does not offer anything.
+Yomihon is bring-your-own-content and does not offer anything.
 
 ::: info Disclaimer
-**MihonOCR** isn't responsible for slow, down, missing chapters, or subpar image quality of sources as it doesn't host the content.
+**Yomihon** isn't responsible for slow, down, missing chapters, or subpar image quality of sources as it doesn't host the content.
 :::
 
 ## Enabling third-party installations
@@ -46,8 +46,8 @@ When prompted while installing your first extension, allow unknown apps installa
 ::::
 
 ## How do I uninstall an extension?
-Uninstall extensions like regular apps: through device settings or in **MihonOCR**.
+Uninstall extensions like regular apps: through device settings or in **Yomihon**.
 
 ::: tip Uninstalling an extension
-In **MihonOCR**, uninstall an extension via <nav to="extensions">, then tap **Uninstall** on the chosen extension.
+In **Yomihon**, uninstall an extension via <nav to="extensions">, then tap **Uninstall** on the chosen extension.
 :::

@@ -5,20 +5,20 @@ description: Tracking helps track your library with different online services.
 ---
 
 # Tracking
-**MihonOCR** supports various tracking services to help you automatically update your tracking details such as read chapters, scoring, start & finish dates, etc.
+**Yomihon** supports various tracking services to help you automatically update your tracking details such as read chapters, scoring, start & finish dates, etc.
 
 Link supported tracking services in <nav to="tracking">.
 
 ## Services
 
-**MihonOCR** currently supports tracking with [MyAnimeList](https://myanimelist.net/), [AniList](https://anilist.co/), [Kitsu](https://kitsu.app/), [MangaUpdates](https://www.mangaupdates.com/), [Shikimori](https://shikimori.one/), and [Bangumi](https://bangumi.tv/).
+**Yomihon** currently supports tracking with [MyAnimeList](https://myanimelist.net/), [AniList](https://anilist.co/), [Kitsu](https://kitsu.app/), [MangaUpdates](https://www.mangaupdates.com/), [Shikimori](https://shikimori.one/), and [Bangumi](https://bangumi.tv/).
 
 * You must add the desired tracker to each series to begin tracking.
 * Track entries privately with supported tracking services (AniList, Kitsu).
 * You can adjust each field in the tracker entry by tapping on it.
 
-:::info Tracker behavior in MihonOCR
-* Tracking is one-way: **MihonOCR -> Tracker**
+:::info Tracker behavior in Yomihon
+* Tracking is one-way: **Yomihon -> Tracker**
 * Status, Start & Finish date automatically changes when you start & complete a series.
 * After reading the last page of a chapter, or marking a chapter as read, the tracker's progress will update.
 * Offline progress syncs when back online.
@@ -26,7 +26,7 @@ Link supported tracking services in <nav to="tracking">.
 
 ## Enhanced services
 
-**MihonOCR** also supports various self-hosted services with exclusive features between the service & the self-hosted series.
+**Yomihon** also supports various self-hosted services with exclusive features between the service & the self-hosted series.
 
 ::::tabs
 ==Komga
@@ -61,7 +61,7 @@ Search with a different title if there is no match.
 * To log in with Kitsu, you need to use your email address as your username.
 
 ### Can't find a series on MyAnimeList?
-* If you cannot find a series by name, you can look it up on MyAnimeList and then search for it in **MihonOCR** using the following format: `id:<id from series URL>`.
+* If you cannot find a series by name, you can look it up on MyAnimeList and then search for it in **Yomihon** using the following format: `id:<id from series URL>`.
 * You can also search for a series on your MAL profile list by searching in the following format: `my:<series name>`.
 
 ### Finding tracked/untracked series in your library

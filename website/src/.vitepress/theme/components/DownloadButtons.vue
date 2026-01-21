@@ -8,12 +8,12 @@ const downloadInformation = computed(() => ({
   beta: {
     tagName: release.beta.tag_name ?? 'r0000',
     asset: (release.beta.assets ?? [])
-      .find(a => /^mihon-ocr-r\d{4,}.apk/.test(a.name)),
+      .find(a => /^yomihon-r\d{4,}.apk/.test(a.name)),
   },
   stable: {
     tagName: release.stable.tag_name ?? 'v0.00.0',
     asset: (release.stable.assets ?? [])
-      .find(a => /^mihon-ocr-v\d+\.\d+\.\d+.apk/.test(a.name)),
+      .find(a => /^yomihon-v\d+\.\d+\.\d+.apk/.test(a.name)),
   },
 }))
 
@@ -41,7 +41,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
         Unsupported operating system
       </p>
       <p>
-        <strong>MihonOCR</strong> is an <strong>Android app</strong> only.
+        <strong>Yomihon</strong> is an <strong>Android app</strong> only.
         Use an <strong>Android device</strong> to download and install the app.
       </p>
     </div>
@@ -53,7 +53,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
         @click="handleAnalytics('stable')"
       >
         <IconDownload />
-        <span class="text">MihonOCR</span>
+        <span class="text">Yomihon</span>
         <span class="version">{{ downloadInformation.stable.tagName }}</span>
       </a>
     </div>

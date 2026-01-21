@@ -5,7 +5,7 @@ import sidebar from './navigation/sidebar'
 
 const themeConfig: DefaultTheme.Config = {
   logo: {
-    src: '/img/mihon-ocr-logo.png',
+    src: '/img/mihon.png',
     width: 24,
     height: 24,
   },
@@ -18,18 +18,18 @@ const themeConfig: DefaultTheme.Config = {
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/mihon-ocr/mihon-ocr',
+      link: 'https://github.com/yomihon/yomihon',
       ariaLabel: 'Project GitHub',
     },
   ],
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a>',
-    copyright: `Copyright © ${new Date().getFullYear()} MihonOCR`,
+    copyright: `Copyright © ${new Date().getFullYear()} Yomihon`,
   },
 
   editLink: {
-    pattern: 'https://github.com/mihon-ocr/mihon-ocr.github.io/edit/main/website/src/:path',
+    pattern: 'https://github.com/yomihon/yomihon.github.io/edit/main/website/src/:path',
     text: 'Help us improve this page',
   },
 

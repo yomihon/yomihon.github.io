@@ -1,7 +1,7 @@
 ---
 title: Komikku
 titleTemplate: false
-description: A fork with features from Sy and Mihon plus added personal flair.
+description: A fork with features from Sy and Yomihon plus added personal flair.
 
 layout: home
 pageClass: page-komikku
@@ -9,7 +9,7 @@ pageClass: page-komikku
 hero:
   name: Komikku
   text: Feature-packed
-  tagline: A fork with features from Sy and Mihon plus added personal flair.
+  tagline: A fork with features from Sy and Yomihon plus added personal flair.
   image: /forks/logo-komikku.webp
   actions:
     - theme: brand

@@ -1,1 +1,1 @@
-export const GITHUB_EXTENSION_JSON = 'https://raw.githubusercontent.com/mihon-ocr/extensions/repo/index.json'
+export const GITHUB_EXTENSION_JSON = 'https://raw.githubusercontent.com/yomihon/extensions/repo/index.json'

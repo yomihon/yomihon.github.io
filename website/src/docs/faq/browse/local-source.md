@@ -10,8 +10,8 @@ Frequently Asked Questions about the Local source.
 ## How can I import my downloaded series?
 For a step-by-step process, we recommend referring to [this guide](/docs/guides/local-source/).
 
-## What should I do if I can't find the MihonOCR folder?
-In case the **MihonOCR** folder is not visible, create one using a file manager.
+## What should I do if I can't find the Yomihon folder?
+In case the **Yomihon** folder is not visible, create one using a file manager.
 
 ## How can I resolve empty/blank covers?
 Occasionally, cover images for local series might not appear.

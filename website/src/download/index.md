@@ -15,8 +15,7 @@ import Changelog from "@theme/components/Changelog.vue";
 
 # Download
 
-The latest stable version of **MihonOCR** 
-has not yet been released.
+The latest stable version of **Yomihon** will be released in a few days!
 
 <DownloadButtons />
 

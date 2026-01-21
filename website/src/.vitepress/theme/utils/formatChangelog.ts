@@ -37,11 +37,11 @@ export function formatChangelog(md: MarkdownIt, body: string | null | undefined,
 
   const flavored = text
     .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
-    .replace(/#(\d+)/g, '[#$1](https://github.com/mihon-ocr/mihon-ocr/issues/$1)')
-    .replace(/\b([0-9a-f]{7,10})\b/gi, '[$1](https://github.com/mihon-ocr/mihon-ocr/commit/$1)')
+    .replace(/#(\d+)/g, '[#$1](https://github.com/yomihon/yomihon/issues/$1)')
+    .replace(/\b([0-9a-f]{7,10})\b/gi, '[$1](https://github.com/yomihon/yomihon/commit/$1)')
     .replace(/<!-->/g, '')
-    .replace('https://github.com/mihon-ocr/mihon-ocr/releases', '/changelogs/')
-    .replace(/https:\/\/github.com\/mihon-ocr\/mihon-ocr\/releases\/tag\/(.*)/g, '#$1')
+    .replace('https://github.com/yomihon/yomihon/releases', '/changelogs/')
+    .replace(/https:\/\/github.com\/yomihon\/yomihon\/releases\/tag\/(.*)/g, '#$1')
     .trim()
 
   const withCallouts = convertCallouts(md, flavored)

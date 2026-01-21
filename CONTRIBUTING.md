@@ -1,4 +1,4 @@
-# MihonOCR Website Contributing Guide
+# Yomihon Website Contributing Guide
 
 Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
 
@@ -78,4 +78,4 @@ It is also recommended you lint your files before the PR.
 
 Thank you to all the people who have already contributed!
 
-[![List of Contributors](https://contrib.rocks/image?repo=mihon-ocr/mihon-ocr.github.io 'List of Contributors')](https://github.com/mihon-ocr/mihon-ocr.github.io/graphs/contributors)
+[![List of Contributors](https://contrib.rocks/image?repo=yomihon/yomihon.github.io 'List of Contributors')](https://github.com/yomihon/yomihon.github.io/graphs/contributors)

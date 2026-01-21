@@ -13,7 +13,7 @@ const headConfig: HeadConfig[] = [
   ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#0058A0' }],
   ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
   ['meta', { name: 'twitter:card', content: 'summary' }],
-  ['meta', { property: 'og:site_name', content: 'MihonOCR' }],
+  ['meta', { property: 'og:site_name', content: 'Yomihon' }],
   ['meta', { property: 'og:description', content: 'Discover and read manga, webtoons, comics, and more – easier than ever on your Android device. Now with text recognition.' }],
   ['meta', { property: 'og:locale', content: 'en_US' }],
   ['meta', { property: 'og:type', content: 'website' }],

@@ -55,7 +55,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at the MihonOCR [GitHub](https://github.com/mihon-ocr/mihon-ocr). All
+reported by contacting the project team at the Yomihon [GitHub](https://github.com/yomihon/yomihon). All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.

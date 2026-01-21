@@ -1,6 +1,6 @@
 ---
 title: Changelogs
-description: Changelogs of all MihonOCR stable releases.
+description: Changelogs of all Yomihon stable releases.
 lastUpdated: false
 editLink: false
 prev: false
@@ -13,7 +13,7 @@ import ChangelogsList from "@theme/components/ChangelogsList.vue";
 
 # Changelogs
 
-Changelogs of all MihonOCR stable releases, which are also available [on GitHub](https://github.com/mihon-ocr/mihon-ocr/releases).<br>
-Beta releases can be seen [on GitHub](https://github.com/mihon-ocr/mihon-ocr-preview/releases).
+Changelogs of all Yomihon stable releases, which are also available [on GitHub](https://github.com/yomihon/yomihon/releases).<br>
+Beta releases can be seen [on GitHub](https://github.com/yomihon/yomihon-preview/releases).<br>
 
 <ChangelogsList />

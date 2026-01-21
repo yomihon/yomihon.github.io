@@ -6,7 +6,7 @@ description: For users who would like to download and organize their own media.
 
 # Local source
 
-If you like to download and organize your media, then you want to know how to manage your own series in MihonOCR.
+If you like to download and organize your media, then you want to know how to manage your own series in Yomihon.
 
 ::: warning
 This page explores some advanced features.
@@ -14,7 +14,7 @@ This page explores some advanced features.
 
 ## Creating local series
 
-1. In the location you specified as your storage location (e.g., `/MihonOCR/`), there should be a `local` folder. Place correctly structured series inside that (e.g. `/MihonOCR/local/`).
+1. In the location you specified as your storage location (e.g., `/Yomihon/`), there should be a `local` folder. Place correctly structured series inside that (e.g. `/Yomihon/local/`).
 
     > If adding series in folders it is recommended to add a file named `.nomedia` to the local folder so images do not show up in the gallery.
 
@@ -25,11 +25,11 @@ If you add more chapters then you'll have to manually refresh the chapter list (
 Supported chapter formats are folders with pictures inside (such as `.jpg`, `.png`, etc) or archive files (`ZIP`/`CBZ`, `RAR`/`CBR`, and `EPUB`).
 But expect better performance with directories and `ZIP`/`CBZ`.
 
-Note that a single folder or archive file is treated as a single chapter. For example, MihonOCR will not automatically split an `EPUB` file containing multiple chapters into separate chapters within the app.
+Note that a single folder or archive file is treated as a single chapter. For example, Yomihon will not automatically split an `EPUB` file containing multiple chapters into separate chapters within the app.
 
 ### Folder structure
 
-MihonOCR requires a specific folder structure for local series to be correctly processed.
+Yomihon requires a specific folder structure for local series to be correctly processed.
 Local series will be read from the `local` folder.
 Each series must have a `Series` folder and a `Chapter` folder.
 Images will then go into the chapter folder.
@@ -79,11 +79,11 @@ You can refer to the following example:
 </div>
 :::
 
-MihonOCR will see three chapters in a single series.
+Yomihon will see three chapters in a single series.
 The path to the folder with images must contain both the series title and the chapter name (as seen above).
 
 Note that this is the same folder structure used by downloads of non-local sources.
-However, the filename format is not required to be the same; for example, MihonOCR adds a disambiguating hash based on the chapter URL when downloading chapters, but you do not need to do this.
+However, the filename format is not required to be the same; for example, Yomihon adds a disambiguating hash based on the chapter URL when downloading chapters, but you do not need to do this.
 
 ### Archive files
 

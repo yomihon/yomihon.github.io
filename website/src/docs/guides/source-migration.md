@@ -21,13 +21,13 @@ You will need to remove these manually with a file manager.
 ## Migration guide
 
 ::::tabs
-==MihonOCR
+==Yomihon
 ### Migrating from Series
 
 1. Tap into the **Series** you would like to migrate.
 1. Go to Overflow and tap Migrate.
 
-    > **MihonOCR** will do a global search of all the sources you have installed and enabled.
+    > **Yomihon** will do a global search of all the sources you have installed and enabled.
 1. Select the **Source** that you'd like to migrate _to_ by tapping the **Series** thumbnail.
 1. Choose which data you want to transfer over, and you're done.
 
@@ -38,7 +38,7 @@ You will need to remove these manually with a file manager.
 1. Select the **Source** that you'd like to migrate _from_.
 1. Tap the **Series** you'd like to migrate _from_ the **Source**.
 
-    > **MihonOCR** will do a global search of all the sources you have installed and enabled.
+    > **Yomihon** will do a global search of all the sources you have installed and enabled.
 1. Select the **Source** you'd like to migrate _to_ by tapping the **Series** thumbnail.
 1. Choose which data you want to transfer over, and you're done.
 

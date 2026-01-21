@@ -6,13 +6,13 @@ description: Understanding Storage Permissions.
 
 # Storage location
 
-MihonOCR manages several things within a selected storage location, including automatic backups, chapter downloads, and the Local source.
+Yomihon manages several things within a selected storage location, including automatic backups, chapter downloads, and the Local source.
 
 ::: tip Selecting a storage location
 Keep the following in mind when setting up your Storage location:
-* Create a "MihonOCR" folder at the top-level of your storage (ex. `/Internal Storage/MihonOCR/`).
-* Do not use your device's system folders (such as "**Documents**" or "**Downloads**"), they are restricted by Android and will cause issues when MihonOCR tries to access them.
-* When selecting your storage location during the setup process, give access to the "MihonOCR" folder, not the folders within.
+* Create a "Yomihon" folder at the top-level of your storage (ex. `/Internal Storage/Yomihon/`).
+* Do not use your device's system folders (such as "**Documents**" or "**Downloads**"), they are restricted by Android and will cause issues when Yomihon tries to access them.
+* When selecting your storage location during the setup process, give access to the "Yomihon" folder, not the folders within.
 :::
 
 The following illustrates the folder structure:
@@ -124,7 +124,7 @@ If you need to change your storage location or have moved files around from outs
 
 Since Android 11, most apps are enforced to use [Scoped Storage](https://developer.android.com/about/versions/11/privacy/storage) for better security for users so that apps cannot read everything on the device.
 
-**Scoped Storage**'s introduction affects various storage-related functions in **MihonOCR**.
+**Scoped Storage**'s introduction affects various storage-related functions in **Yomihon**.
 These functions may become slower due to **Scoped Storage**'s inherent latency, as discussed in detail [here on Scoped Storage](https://www.xda-developers.com/android-q-storage-access-framework-scoped-storage/).
 
 This can impact tasks like deleting chapters, library loading times, accessing local files like downloads or the local source, and more. As always, using internal storage is recommended over SD cards if latency is of concern.

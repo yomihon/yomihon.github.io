@@ -1,6 +1,6 @@
 ---
 title: Latest Changelog
-description: Changelog of the latest version of MihonOCR.
+description: Changelog of the latest version of Yomihon.
 outline: false
 lastUpdated: false
 editLink: false
@@ -17,8 +17,8 @@ onMounted(async () => {
   try {
     const octokit = new Octokit()
     const { data } = await octokit.repos.listReleases({
-      owner: 'mihon-ocr',
-      repo: 'mihon-ocr',
+      owner: 'yomihon',
+      repo: 'yomihon',
       per_page: 1,
     })
 
