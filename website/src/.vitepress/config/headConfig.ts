@@ -2,6 +2,7 @@ import type { HeadConfig } from 'vitepress'
 
 const headConfig: HeadConfig[] = [
   ['meta', { name: 'darkreader-lock' }],
+  ['meta', { name: 'google-site-verification', content: 'LNmxCbIKuVEmH2T3dAD1ekM_5FegjH1kYx7uAIVqyQ0' }],
   ['meta', { name: 'theme-color', content: '#0058A0' }],
   ['meta', { name: 'msapplication-TileColor', content: '#0058A0' }],
   ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
