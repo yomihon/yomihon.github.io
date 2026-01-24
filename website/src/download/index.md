@@ -15,7 +15,7 @@ import Changelog from "@theme/components/Changelog.vue";
 
 # Download
 
-The latest stable version of **Yomihon** will be released in a few days!
+The latest stable version of **Yomihon** was released **<ReleaseDate type="stable" />**.
 
 <DownloadButtons />
 
