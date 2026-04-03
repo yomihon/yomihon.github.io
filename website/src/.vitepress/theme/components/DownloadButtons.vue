@@ -7,13 +7,12 @@ import { data as release } from '../data/release.data'
 const downloadInformation = computed(() => ({
   beta: {
     tagName: release.beta.tag_name ?? 'r0000',
-    asset: (release.beta.assets ?? [])
-      .find(a => /^yomihon-r\d{4,}.apk/.test(a.name)),
+    asset: (release.beta.assets ?? []).find(a => /^yomihon-r\d{4,}.apk/.test(a.name)),
   },
   stable: {
     tagName: release.stable.tag_name ?? 'v0.00.0',
-    asset: (release.stable.assets ?? [])
-      .find(a => /^yomihon-v\d+\.\d+\.\d+.apk/.test(a.name)),
+    // Updated regex to match the 'universal' apk format
+    asset: (release.stable.assets ?? []).find(a => /^yomihon-universal-v\d+\.\d+\.\d+\.apk/.test(a.name)),
   },
 }))
 
